@@ -1,0 +1,676 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>2000</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>January2015toJuly2025.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="UPA" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="EventDate" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Employer" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Address1" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Address2" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="City" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="State" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Zip" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Latitude" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Longitude" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Primary NAICS" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Hospitalized" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Amputation" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Loss of Eye" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Inspection" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Final Narrative" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Nature" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="NatureTitle" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Part of Body" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Part of Body Title" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Event" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="EventTitle" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Source" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="SourceTitle" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Secondary Source" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="Secondary Source Title" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+            <Field name="FederalState" size="2000" source="File: C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\January2015toJuly2025.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="234" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF LEFT([Nature], 2) = &quot;10&quot; THEN &quot;Traumatic injuries or exposures-- nonspecific and unspecified&quot;&#xA;ELSEIF LEFT([Nature], 2) = &quot;11&quot; THEN &quot;Injuries to the brain, spinal cord&quot;&#xA;ELSEIF LEFT([Nature], 2) = &quot;12&quot; THEN &quot;Severe wounds, internal injuries&quot;&#xA;ELSEIF LEFT([Nature], 2) = &quot;13&quot; THEN &quot;Surface and flesh wounds&quot;&#xA;ELSEIF LEFT([Nature], 2) = &quot;14&quot; THEN &quot;Soft tissue injuries&quot;&#xA;ELSEIF LEFT([Nature], 2) = &quot;15&quot; THEN &quot;Burns, corrosions, electrical injuries&quot;&#xA;ELSEIF LEFT([Nature], 2) = &quot;16&quot; THEN &quot;Effects of poison, toxic, or allergenic exposure&quot;&#xA;ELSEIF LEFT([Nature], 2) = &quot;17&quot; THEN &quot;Effects of environmental conditions and exposures&quot;&#xA;ELSEIF LEFT([Nature], 2) = &quot;18&quot; THEN &quot;Multiple traumatic injuries and disorders&quot;&#xA;ELSEIF LEFT([Nature], 2) = &quot;19&quot; THEN &quot;Traumatic injuries— n.e.c.&quot;&#xA;ELSEIF LEFT([Nature], 1) = &quot;2&quot; THEN &quot;DISEASES AND DISORDERS OF BODY SYSTEMS&quot;&#xA;ELSEIF LEFT([Nature], 1) = &quot;3&quot; THEN &quot;INFECTIOUS AND PARASITIC DISEASES&quot;&#xA;ELSEIF LEFT([Nature], 1) = &quot;4&quot; THEN &quot;NEOPLASMS, TUMORS, AND CANCERS&quot;&#xA;ELSEIF LEFT([Nature], 1) = &quot;5&quot; THEN &quot;SYMPTOMS, SIGNS, AND ILL-DEFINED CONDITIONS&quot;&#xA;ELSEIF LEFT([Nature], 1) = &quot;6&quot; THEN &quot;OTHER DISEASES, CONDITIONS, AND DISORDERS&quot;&#xA;ELSEIF LEFT([Nature], 1) = &quot;7&quot; THEN &quot;EXPOSURES TO HARMFUL SUBSTANCE OR ENVIRONMENT—NO INJURY OR ILLNESS INCURRED&quot;&#xA;ELSEIF LEFT([Nature], 1) = &quot;8&quot; THEN &quot;MULTIPLE DISEASES, CONDITIONS, AND DISORDERS&quot;&#xA;ELSEIF LEFT([Nature], 1) = &quot;9&quot; THEN &quot;Nature— unspecified&quot;&#xA;ELSE &quot;Other&quot;&#xA;ENDIF&#xA;" field="General Nature" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>General Nature = IF LEFT([Nature], 2) = "10" THEN "Traumatic injuries or exposur...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="138" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sanika\AppData\Local\Temp\Alteryx\Engine_30076_43dc569da64844e69b3e54249cfca1b1_\Engine_30076_bd320644a58a49759a65a26db8a9c733~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="330" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sanika\AppData\Local\Temp\Alteryx\Engine_30076_43dc569da64844e69b3e54249cfca1b1_\Engine_30076_0a0b49ee51724e92ab265d368e28a5e0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF LEFT([Part of Body], 1) = &quot;1&quot; THEN &quot;Head&quot;&#xA;ELSEIF LEFT([Part of Body], 1) = &quot;2&quot; THEN &quot;Neck&quot;&#xA;ELSEIF LEFT([Part of Body], 1) = &quot;3&quot; THEN &quot;Trunk&quot;&#xA;ELSEIF LEFT([Part of Body], 1) = &quot;4&quot; THEN &quot;Upper Extremities&quot;&#xA;ELSEIF LEFT([Part of Body], 1) = &quot;5&quot; THEN &quot;Lower Extremities&quot;&#xA;ELSEIF LEFT([Part of Body], 1) = &quot;6&quot; THEN &quot;Body Systems&quot;&#xA;ELSEIF LEFT([Part of Body], 1) = &quot;8&quot; THEN &quot;Multiple Body Parts&quot;&#xA;ELSEIF LEFT([Part of Body], 1) = &quot;6&quot; THEN &quot;Part of body— unspecified&quot;&#xA;ELSE &quot;Other&quot;&#xA;ENDIF" field="General Part of Body" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>General Part of Body = IF LEFT([Part of Body], 1) = "1" THEN "Head"
+ELSEIF LEFT(...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sanika\AppData\Local\Temp\Alteryx\Engine_30076_43dc569da64844e69b3e54249cfca1b1_\Engine_30076_277f93b1e24b4c9f83923da60aa66f25~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="426" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF LEFT([Event], 1) = &quot;1&quot; THEN &quot;Violent Acts&quot;&#xA;ELSEIF LEFT([Event], 1) = &quot;2&quot; THEN &quot;Transportation Incident&quot;&#xA;ELSEIF LEFT([Event], 1) = &quot;3&quot; THEN &quot;Explosions and Fires&quot;&#xA;ELSEIF LEFT([Event], 1) = &quot;4&quot; THEN &quot;Falls, Slips, Trips&quot;&#xA;ELSEIF LEFT([Event], 1) = &quot;5&quot; THEN &quot;Exposure to Harmful Substances, Environments&quot;&#xA;ELSEIF LEFT([Event], 1) = &quot;6&quot; THEN &quot;Contact Incidents&quot;&#xA;ELSEIF LEFT([Event], 1) = &quot;7&quot; THEN &quot;Overextension, Repetitive Motion, and Bodily Conditions&quot;&#xA;ELSEIF LEFT([Event], 1) = &quot;9&quot; THEN &quot;Event or exposure— unspecified&quot;&#xA;ELSE &quot;Other&quot;&#xA;ENDIF" field="General Event" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>General Event = IF LEFT([Event], 1) = "1" THEN "Violent Acts"
+ELSEIF LEFT([Event...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sanika\AppData\Local\Temp\Alteryx\Engine_30076_43dc569da64844e69b3e54249cfca1b1_\Engine_30076_58018944b3074116b76c0ec43281f38d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="522" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF LEFT([Source], 1) = &quot;1&quot; THEN &quot;Chemicals and Hazardous Materials&quot;&#xA;ELSEIF LEFT([Source], 1) = &quot;2&quot; THEN &quot;Containers, Furniture, Fixtures&quot;&#xA;ELSEIF LEFT([Source], 1) = &quot;3&quot; THEN &quot;Machinery&quot;&#xA;ELSEIF LEFT([Source], 1) = &quot;4&quot; THEN &quot;Parts and Materials&quot;&#xA;ELSEIF LEFT([Source], 1) = &quot;5&quot; THEN &quot;Animals, Plants, Persons, etc.&quot;&#xA;ELSEIF LEFT([Source], 1) = &quot;6&quot; THEN &quot;Structures and Surfaces&quot;&#xA;ELSEIF LEFT([Source], 1) = &quot;7&quot; THEN &quot;Tools, Instruments, and Equipment&quot;&#xA;ELSEIF LEFT([Source], 1) = &quot;8&quot; THEN &quot;Vehicles&quot;&#xA;ELSEIF LEFT([Source], 1) = &quot;9&quot; THEN &quot;Safety and Environmental Factors and Conditions&quot;&#xA;ELSE &quot;Other&quot;&#xA;ENDIF" field="General Source" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>General Source = IF LEFT([Source], 1) = "1" THEN "Chemicals and Hazardous Materi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="618" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sanika\AppData\Local\Temp\Alteryx\Engine_30076_43dc569da64844e69b3e54249cfca1b1_\Engine_30076_dd10505828424e259954dc999b6b6ef1~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="618" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF LEFT([Secondary Source], 1) = &quot;1&quot; THEN &quot;Chemicals and Hazardous Materials&quot;&#xA;ELSEIF LEFT([Secondary Source], 1) = &quot;2&quot; THEN &quot;Containers, Furniture, Fixtures&quot;&#xA;ELSEIF LEFT([Secondary Source], 1) = &quot;3&quot; THEN &quot;Machinery&quot;&#xA;ELSEIF LEFT([Secondary Source], 1) = &quot;4&quot; THEN &quot;Parts and Materials&quot;&#xA;ELSEIF LEFT([Secondary Source], 1) = &quot;5&quot; THEN &quot;Animals, Plants, Persons, etc.&quot;&#xA;ELSEIF LEFT([Secondary Source], 1) = &quot;6&quot; THEN &quot;Structures and Surfaces&quot;&#xA;ELSEIF LEFT([Secondary Source], 1) = &quot;7&quot; THEN &quot;Tools, Instruments, and Equipment&quot;&#xA;ELSEIF LEFT([Secondary Source], 1) = &quot;8&quot; THEN &quot;Vehicles&quot;&#xA;ELSEIF LEFT([Secondary Source], 1) = &quot;9&quot; THEN &quot;Safety and Environmental Factors and Conditions&quot;&#xA;ELSE &quot;No Secondary&quot;&#xA;ENDIF&#xA;" field="General Secondary Source" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>General Secondary Source = IF LEFT([Secondary Source], 1) = "1" THEN "Chemicals ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sanika\AppData\Local\Temp\Alteryx\Engine_30076_43dc569da64844e69b3e54249cfca1b1_\Engine_30076_99333efb1c8543e6bc0e9551d3a87d76~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="570" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Sanika\Desktop\Brown Application Data Analysis Sample\OSHA_Feature_Eng.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>65001</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>OSHA_Feature_Eng.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="162" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF LEFT([Primary NAICS], 1) = &quot;0&quot; THEN &quot;Agriculture&quot;&#xA;ELSEIF LEFT([Primary NAICS], 2) IN (&quot;11&quot;, &quot;12&quot;, &quot;13&quot;, &quot;14&quot;) THEN &quot;Mining&quot;&#xA;ELSEIF LEFT([Primary NAICS], 2) IN (&quot;15&quot;, &quot;16&quot;, &quot;17&quot;) THEN &quot;Construction&quot;&#xA;ELSEIF LEFT([Primary NAICS], 1) = &quot;2&quot; THEN &quot;Manufacturing&quot;&#xA;ELSEIF LEFT([Primary NAICS], 1) = &quot;3&quot; THEN &quot;Manufacturing&quot;&#xA;ELSEIF LEFT([Primary NAICS], 1) = &quot;4&quot; THEN &quot;Transportation, Communications, Electric, Gas, And Sanitary Services&quot;&#xA;ELSEIF LEFT([Primary NAICS], 2) IN (&quot;50&quot;, &quot;51&quot;) THEN &quot;Wholesale Trade&quot;&#xA;ELSEIF LEFT([Primary NAICS], 2) IN (&quot;52&quot;, &quot;53&quot;, &quot;54&quot;, &quot;55&quot;, &quot;56&quot;, &quot;57&quot;, &quot;58&quot;, &quot;59&quot;) THEN &quot;Retail Trade&quot;&#xA;ELSEIF LEFT([Primary NAICS], 2) IN (&quot;60&quot;, &quot;61&quot;, &quot;62&quot;, &quot;63&quot;, &quot;64&quot;, &quot;65&quot;, &quot;66&quot;, &quot;67&quot;) THEN &quot;Finance, Insurance, And Real Estate&quot;&#xA;ELSEIF LEFT([Primary NAICS], 1) = &quot;7&quot; THEN &quot;Services&quot;&#xA;ELSEIF LEFT([Primary NAICS], 1) = &quot;8&quot; THEN &quot;Services&quot;&#xA;ELSEIF LEFT([Primary NAICS], 1) = &quot;9&quot; THEN &quot;Public Administration&quot;&#xA;ELSE &quot;Other&quot;&#xA;ENDIF&#xA;" field="NAICS Desc" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>NAICS Desc = IF LEFT([Primary NAICS], 1) = "0" THEN "Agriculture"
+ELSEIF LEFT([P...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="222" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sanika\AppData\Local\Temp\Alteryx\Engine_30076_43dc569da64844e69b3e54249cfca1b1_\Engine_30076_462f9a66cf1f414aa04f2358806b99e8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="294" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF LEFT([Hospitalized], 1) &gt; &quot;0&quot; THEN &quot;1&quot;&#xA;ELSE &quot;0&quot;&#xA;ENDIF&#xA;" field="Hosp Bool" size="1" type="Bool" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Hosp Bool = IF LEFT([Hospitalized], 1) > "0" THEN "1"
+ELSE "0"
+ENDIF
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="414" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF LEFT([Amputation], 1) &gt; &quot;0&quot; THEN &quot;1&quot;&#xA;ELSE &quot;0&quot;&#xA;ENDIF&#xA;" field="Amp Bool" size="1" type="Bool" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Amp Bool = IF LEFT([Amputation], 1) > "0" THEN "1"
+ELSE "0"
+ENDIF
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sanika\AppData\Local\Temp\Alteryx\Engine_30076_43dc569da64844e69b3e54249cfca1b1_\Engine_30076_51ebc503e3b04a88928bba3609eb01b3~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Sanika\AppData\Local\Temp\Alteryx\Engine_30076_43dc569da64844e69b3e54249cfca1b1_\Engine_30076_5bf91d57e06745feba70713291c0c055~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="498" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Final Narrative" selected="True" type="V_WString" size="2000" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>OSHA Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="7798b2b1-7070-4eab-9178-688c706cc3f6" />
+      <Telemetry>
+        <PreviousWorkflowId value="fdebc034-6596-4729-bf06-f824510292c6" />
+        <OriginWorkflowId value="9bdff9da-9f97-4f3e-ad99-adac763cb480" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
