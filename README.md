@@ -1,2 +1,4 @@
 # Injury-Classification-with-OSHA-Severe-Injury-Report-Data
-Sample project for Brown Sc.M Data Science application :)
+This is a sample project for my application to Brown University's Sc.M Data Science program. The project analyzes OSHA's Severe Injury Reports dataset, with the goal of identifying the strongest predictors of certain types of injuries using features from the dataset. I began with feature engineering with Alteryx. I then conducted EDA with Tableau and Python, identifying high-level patterns that warranted further exploration and guided feature selection. Finally, I coded a model to use the selected features to predict injury types. Applications for this project could include a suite of software tools for occupational safety professionals to better anticipate and prevent workplace injuries.  
+## Data
+Data Source: [OSHA Severe Injury Reports](https://www.osha.gov/severe-injury-reports)
