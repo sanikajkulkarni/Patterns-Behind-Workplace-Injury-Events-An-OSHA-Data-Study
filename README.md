@@ -92,9 +92,5 @@ This is a sample project for my application to Brown University's Sc.M Data Scie
 - **Final Features:** 5 (from 30 initial variables)
 - **Best Model F1-Score:** .6525
 
-## Alteryx Workflow
-
-## Tableau Dashboard
-
 
 
