@@ -77,6 +77,8 @@ This is a sample project for my application to Brown University's Sc.M Data Scie
     # Interactive visualizations
 ├── OSHA Workflow.yxmd
     # Feature engineering pipeline
+├── OSHA_Feature_Eng.zip
+    # Zip file containing feature engineered datset
 └── README.md
     # This file
 ```
