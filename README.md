@@ -54,7 +54,7 @@ This is a sample project for my application to Brown University's Sc.M Data Scie
 - Amp Bool inclusion validated with a model importance of 0.1446 (similar to General Part of Body in Top 3)
 
 **Impact:**
-- The analysis identified injury source and nature as the strongest predictors of injury event type, with the goal of helping safety programs target high-risk combinations like machinery-related contact injuries. This model could enable occupational safety professionals to allocate prevention resources more strategically across industries, using data-driven insights to anticipate and address the injury patterns most likely to occur in specific workplace settings.
+- The analysis identified injury source and nature as the strongest predictors of injury event type, with the goal of helping safety programs target high-risk combinations like machinery-related contact injuries. This model could enable occupational safety professionals to allocate prevention resources more strategically by anticipating the injury patterns most likely to occur in specific work contexts.
 
 ## Skills Demonstrated
 
