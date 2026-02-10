@@ -89,7 +89,7 @@ This is a sample project for my application to Brown University's Sc.M Data Scie
 - **Dataset:** 100K+ OSHA severe injury incidents ([OSHA Severe Injury Reports](https://www.osha.gov/severe-injury-reports))
 - **Time Period:** 2015-2025
 - **Models Compared:** 3
-- **Final Features:** 5 (from 30 initial variables)
+- **Final Features:** 5 (from 25 initial variables)
 - **Best Model F1-Score:** .6525
 
 
