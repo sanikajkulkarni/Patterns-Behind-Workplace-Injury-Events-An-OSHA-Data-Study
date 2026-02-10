@@ -24,7 +24,7 @@ This is a sample project for my application to Brown University's Sc.M Data Scie
 - Identified General Event patterns that preliminarily informed feature selection
 - Visualized high-level trends in the dataset
 
-<img width="1615" height="926" alt="image" src="https://github.com/user-attachments/assets/b01f78ab-1ce4-49b5-8ee7-663b409da4cb" />
+<img width="1917" height="935" alt="image" src="https://github.com/user-attachments/assets/f37ee505-eeb8-4c67-a189-64f993a764c0" />
 
 ### Phase 3: Statistical Analysis & Modeling (Python)
 
