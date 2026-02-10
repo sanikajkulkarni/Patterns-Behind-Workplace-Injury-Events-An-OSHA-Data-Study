@@ -34,7 +34,7 @@ This is a sample project for my application to Brown University's Sc.M Data Scie
 - 5-fold cross-validation to prevent overfitting
 - Class balancing to handle 56.9:1 imbalance
 
-**Key Statistical Decision:**
+**Additional Step:**
 - Inclusion of Amp Bool despite low MI score: it became a useful predictor for Contact Incidents, which were prevalent in the dataset
 
 ## Results
