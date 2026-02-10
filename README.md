@@ -17,10 +17,14 @@ This is a sample project for my application to Brown University's Sc.M Data Scie
 - Created binary flags (Amp Bool/Hosp Bool) for severity indicators
 - Result - Final dataset with 100K+ incidents with 5 engineered features
 
+<img width="479.227" height="300" alt="Screenshot 2026-01-31 205901" src="https://github.com/user-attachments/assets/2f4fbb3c-cf7a-42be-8bc7-3d27dc4e97ac" />
+
 ### Phase 2: Exploratory Analysis (Tableau)
 - Built interactive dashboards showing event distribution by industry
 - Identified General Event patterns that preliminarily informed feature selection
 - Visualized high-level trends in the dataset
+
+<img width="1615" height="926" alt="image" src="https://github.com/user-attachments/assets/b01f78ab-1ce4-49b5-8ee7-663b409da4cb" />
 
 ### Phase 3: Statistical Analysis & Modeling (Python)
 
@@ -89,7 +93,8 @@ This is a sample project for my application to Brown University's Sc.M Data Scie
 - **Best Model F1-Score:** .6525
 
 ## Alteryx Workflow
-<img width="479.227" height="300" alt="Screenshot 2026-01-31 205901" src="https://github.com/user-attachments/assets/2f4fbb3c-cf7a-42be-8bc7-3d27dc4e97ac" />
+
+## Tableau Dashboard
 
 
 
