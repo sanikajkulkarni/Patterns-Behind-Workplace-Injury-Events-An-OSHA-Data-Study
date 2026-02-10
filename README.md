@@ -12,8 +12,7 @@ This is a sample project for my application to Brown University's Sc.M Data Scie
 ## Methodology
 
 ### Phase 1: Feature Engineering (Alteryx)
-- Consolidated specific industry codes into generalizable categories for analysis
-- Reduced data sparsity and improved model generalization
+- Consolidated specific industry codes to improve model generalization
 - Created binary flags (Amp Bool/Hosp Bool) for severity indicators
 - Result - Final dataset with 100K+ incidents with 5 engineered features
 
@@ -24,7 +23,8 @@ This is a sample project for my application to Brown University's Sc.M Data Scie
 - Identified General Event patterns that preliminarily informed feature selection
 - Visualized high-level trends in the dataset
 
-<img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/86bd8ad1-014c-48cf-b45b-78d0ef9b1b52" />
+<img width="1919" height="983" alt="image" src="https://github.com/user-attachments/assets/bed5f78b-dee7-49b9-afb5-4852f93f387b" />
+
 
 ### Phase 3: Statistical Analysis & Modeling (Python)
 
