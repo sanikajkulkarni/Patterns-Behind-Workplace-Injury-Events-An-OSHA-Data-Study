@@ -12,7 +12,7 @@ This is a sample project for my application to Brown University's Sc.M Data Scie
 ## Methodology
 
 ### Phase 1: Feature Engineering (Alteryx)
-- Consolidated specific industry codes to improve model generalization
+- Translated industry codes into broader categories to improve model generalization
 - Created binary flags (Amp Bool/Hosp Bool) for severity indicators
 - Result - Final dataset with 100K+ incidents with 5 engineered features
 
